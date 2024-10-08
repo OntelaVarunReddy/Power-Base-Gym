@@ -1,0 +1,127 @@
+html{
+    scroll-behavior: smooth;
+}    
+    *{
+    margin: 0;
+    padding: 0;
+    border: border-box;
+}
+
+.container{
+    max-width: 80vw;
+    max-height: 100vh;
+}
+
+.navbar{
+    display: flex;
+    height: 67px;
+    font-family: sans-serif;
+}
+
+.navbar li{
+    list-style: none;
+    margin: 0px 12px;
+}
+
+.topleft{
+    width: 50%;
+}
+
+.topright{
+    width: 50%;
+}
+
+.logo{
+    font-size: 1.4rem;
+}
+
+.section1{
+    max-height: 100vh;
+    overflow-y: hidden;
+}
+
+.section1 h2{
+    font-size: 1.9rem;
+    color: rgb(29, 88, 214);
+
+}
+
+.dumbellimg{
+    width: 289px;
+}
+
+.topright .gymimg{
+    width: 466px;
+}
+
+.section2{
+    padding: 20px;
+}
+
+.section2 p{
+    padding: 0 8vw;
+    text-align: center;
+}
+
+.section2 h1{
+    font-size: 2.5rem;
+    color: rgb(29, 88, 214);
+}
+
+.box{
+    margin: 12px 22px;
+    padding: 8px 0px;
+    min-width: 20vw;
+    border: 2px solid rgb(29, 88, 214);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.box h2{
+    font-size: 2rem;
+    padding: 15px 0;
+}
+
+.box ul{
+    list-style: none;
+}
+
+.box ul li{
+    margin: 12px 2px;
+}
+
+.highlighted{
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+
+#plans{
+    height: 115vh;
+    width: 80vw;
+    background-image: url("plans.jpeg");
+    background-size: cover;
+}
+
+.section3 h1{
+    font-size: 2.3rem;
+    color: rgb(29, 88, 214);
+}
+
+.section3{
+    padding: 20px;
+    height: 135vh;
+}
+
+footer{
+    padding: 20px;
+    text-align: center;
+}
+
+.color{
+    text-decoration: none;
+    color: black;
+}
+
+.bold{
+    font-weight: bold;
+}
